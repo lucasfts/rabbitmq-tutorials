@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Tutorials.HelloWor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Work Queues", "2 - Work Queues", "{9ECD4949-5AFE-4A65-9A38-1B9353A3CC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.WorkQueues.NewTask", "2 - Work Queues\RabbitMQ.Tutorials.WorkQueues.NewTask\RabbitMQ.Tutorials.WorkQueues.NewTask.csproj", "{A9C8C62B-2583-4121-964E-A658AC50435B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Tutorials.WorkQueues.NewTask", "2 - Work Queues\RabbitMQ.Tutorials.WorkQueues.NewTask\RabbitMQ.Tutorials.WorkQueues.NewTask.csproj", "{A9C8C62B-2583-4121-964E-A658AC50435B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.WorkQueues.Worker", "2 - Work Queues\RabbitMQ.Tutorials.WorkQueues.Worker\RabbitMQ.Tutorials.WorkQueues.Worker.csproj", "{29C80EC5-B49D-444A-95A4-5DBD52FCB50F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Tutorials.WorkQueues.Worker", "2 - Work Queues\RabbitMQ.Tutorials.WorkQueues.Worker\RabbitMQ.Tutorials.WorkQueues.Worker.csproj", "{29C80EC5-B49D-444A-95A4-5DBD52FCB50F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Publish Subscribe", "3 - Publish Subscribe", "{8626BC0A-38B3-4FB5-9EFF-FEFC57D34727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.PublishSubscribe.EmitLog", "3 - Publish Subscribe\RabbitMQ.Tutorials.PublishSubscribe.EmitLog\RabbitMQ.Tutorials.PublishSubscribe.EmitLog.csproj", "{874E53ED-A895-462B-BB18-1121B880930C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog", "3 - Publish Subscribe\RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog\RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog.csproj", "{D0992C65-6BAF-4F0A-98BA-84F00B97A703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{29C80EC5-B49D-444A-95A4-5DBD52FCB50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C80EC5-B49D-444A-95A4-5DBD52FCB50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C80EC5-B49D-444A-95A4-5DBD52FCB50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874E53ED-A895-462B-BB18-1121B880930C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874E53ED-A895-462B-BB18-1121B880930C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874E53ED-A895-462B-BB18-1121B880930C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874E53ED-A895-462B-BB18-1121B880930C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{95E54151-C2AE-4B26-BE9C-826645D65D29} = {CA05C002-1B73-4F33-AE7A-00E53F386C10}
 		{A9C8C62B-2583-4121-964E-A658AC50435B} = {9ECD4949-5AFE-4A65-9A38-1B9353A3CC7B}
 		{29C80EC5-B49D-444A-95A4-5DBD52FCB50F} = {9ECD4949-5AFE-4A65-9A38-1B9353A3CC7B}
+		{874E53ED-A895-462B-BB18-1121B880930C} = {8626BC0A-38B3-4FB5-9EFF-FEFC57D34727}
+		{D0992C65-6BAF-4F0A-98BA-84F00B97A703} = {8626BC0A-38B3-4FB5-9EFF-FEFC57D34727}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9B6A9BB-5EAB-4EE7-8CEE-14BC78E8A0DA}
