@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.PublishS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog", "3 - Publish Subscribe\RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog\RabbitMQ.Tutorials.PublishSubscribe.ReceiveLog.csproj", "{D0992C65-6BAF-4F0A-98BA-84F00B97A703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Routing", "4 - Routing", "{5975F03F-3315-4659-9210-0BDFB60F69EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.Routing.EmitLogDirect", "4 - Routing\RabbitMQ.Tutorials.Routing.EmitLogDirect\RabbitMQ.Tutorials.Routing.EmitLogDirect.csproj", "{5B32B51D-9720-4347-9554-2AAE155B4063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Tutorials.Routing.ReceiveLogsDirect", "4 - Routing\RabbitMQ.Tutorials.Routing.ReceiveLogsDirect\RabbitMQ.Tutorials.Routing.ReceiveLogsDirect.csproj", "{F108D3B7-483B-47E6-989A-FC73533F0B92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +57,14 @@ Global
 		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0992C65-6BAF-4F0A-98BA-84F00B97A703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B32B51D-9720-4347-9554-2AAE155B4063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B32B51D-9720-4347-9554-2AAE155B4063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B32B51D-9720-4347-9554-2AAE155B4063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B32B51D-9720-4347-9554-2AAE155B4063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F108D3B7-483B-47E6-989A-FC73533F0B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F108D3B7-483B-47E6-989A-FC73533F0B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F108D3B7-483B-47E6-989A-FC73533F0B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F108D3B7-483B-47E6-989A-FC73533F0B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +76,8 @@ Global
 		{29C80EC5-B49D-444A-95A4-5DBD52FCB50F} = {9ECD4949-5AFE-4A65-9A38-1B9353A3CC7B}
 		{874E53ED-A895-462B-BB18-1121B880930C} = {8626BC0A-38B3-4FB5-9EFF-FEFC57D34727}
 		{D0992C65-6BAF-4F0A-98BA-84F00B97A703} = {8626BC0A-38B3-4FB5-9EFF-FEFC57D34727}
+		{5B32B51D-9720-4347-9554-2AAE155B4063} = {5975F03F-3315-4659-9210-0BDFB60F69EF}
+		{F108D3B7-483B-47E6-989A-FC73533F0B92} = {5975F03F-3315-4659-9210-0BDFB60F69EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9B6A9BB-5EAB-4EE7-8CEE-14BC78E8A0DA}
